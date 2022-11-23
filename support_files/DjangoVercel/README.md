@@ -1,3 +1,6 @@
+# Note:
+I have made a simple machine learning deployment site with a picked titatic model. The website works on localhost, and predict survival rate based on some inputs by the user. The goal was to see if we can host/deploy it somewhere. I was able to find Vercel, a online deploment site where we can deploy django webapps. However, it seems to work with only simple models. Since we need many dependencies, Vercel reaches it's free tier limit. : ( 
+
 # Django on Vercel
 This is a simple project developed using Django framework and it contains the settings required for successfull deployment of Django projects on Vercel.
 ## Setup
@@ -19,20 +22,3 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-## Using PostgreSQL Database
-
-Comment the database section out completely and paste the follwing lines of code beneath it.
-
-```
-DATABASES = {
-    'default': {
-        'ENGINE': "django.db.backends.postgresql_psycopg2"
-        'HOST': os.environ['HOST'],
-        'NAME': os.environ['NAME'],
-        'USER': os.environ['USER'],
-        'PASSWORD': os.environ['PASSWORD'],
-        'PORT': os.environ['PORT'],
-
-    }
-}
-```
