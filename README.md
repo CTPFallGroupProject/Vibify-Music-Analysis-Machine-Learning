@@ -25,7 +25,7 @@ Vibify is a tool for songwriters and song-curious people to enhance their analys
 
 ## Members
 
-Vibify was created during CUNY Tech Prep's winter semester 2022 cohourt. The team consists of:
+Vibify was created during CUNY Tech Prep's fall 2022 cohourt. The team consists of:
 - Aleksandra Georgievska (https://github.com/aleksgeorgi)
 - Deepankar
 - Stephen Williams 
