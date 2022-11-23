@@ -1,5 +1,5 @@
 # Note:
-I have made a simple machine learning deployment site with a picked titatic model. The website works on localhost, and predict survival rate based on some inputs by the user. The goal was to see if we can host/deploy it somewhere. I was able to find Vercel, a online deploment site where we can deploy django webapps. However, it seems to work with only simple models. Since we need many dependencies, Vercel reaches it's free tier limit. : ( 
+I have made a simple machine learning deployment site with a pickled titatic model. The website works on localhost, and predict survival rate based on some inputs by the user. The goal was to see if we can host/deploy it somewhere. I was able to find Vercel, a online deploment site where we can deploy django webapps. However, it seems to work with only simple models. Since we need many dependencies, Vercel reaches it's free tier limit. : ( 
 
 # Django on Vercel
 This is a simple project developed using Django framework and it contains the settings required for successfull deployment of Django projects on Vercel.
