@@ -8,7 +8,7 @@ Vibify is a web application that takes in lyrical data as input, passes it throu
 - Word Cloud depicting Word Frequency
 
 # Who is Vibify For?
-Vibify is a tool for songwriters and song-curious people to enhance their analysis and understanding of lyrics. Say you need to write a happy sounding song for a movie that you're scoring, but aren't sure how happy it sounds. Vibify will give you a continuous 0 (very sad) to 1 (very happy) rating based existing songs that were used to train the model, helping you better understand how your song stacks up. Or maybe you've got writers block and are looking for inspiration? Input the lyrics you have written so far, and Vibify returns the 5 most similar songs for you to peruse for content inspiration. 
+Vibify is a tool for songwriters and song-curious people to enhance their analysis and understanding of lyrics. Say you need to write a happy sounding song for a movie that you're scoring, but aren't sure how happy it sounds. Vibify will give you a continuous 0 (very sad) to 1 (very happy) rating based on existing songs that were used to train the model, helping you better understand how your song stacks up. Or maybe you've got writer's block and are looking for inspiration? Input the lyrics you have written so far, and Vibify returns the 5 most similar songs for you to peruse for content inspiration. 
 
 
 # Table of Content:
