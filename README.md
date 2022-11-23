@@ -16,7 +16,7 @@ Vibify is a tool for songwriters and song-curious people to enhance their analys
 - [Table of Content:](#table-of-content)
   - [Dependencies](#dependencies)
   - [Datasets](#datasets)
-  - [Flask App](#flask-app)
+  - [App Features](#app-features)
   - [Hosted on ](#hosted-on-)
 
 
