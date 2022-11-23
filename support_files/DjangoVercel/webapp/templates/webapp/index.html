@@ -1,0 +1,40 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+        <link rel="stylesheet" href="{% static 'webapp/styles.css' %}">
+
+    </head>
+    <body>
+        {% csrf_token %}
+        <input class="id_csrf" type='hidden'>
+
+        <label for='pclass'>P-class</label>
+        <input type='text' class='' id='pclass'>
+        
+        <br> 
+        <label for='fare'>Fare</label>
+        <input type='text' class='' id='fare'>
+        
+        <br> 
+        <label for='Sex'>Sex</label>
+        <input type='text' class='' id='sex'>
+        <button id='btn'> Submit </button>
+        <br> 
+        <br> 
+
+        {# <a href="{% url 'show_result' %}">SHOW RESULT </a> #}
+         
+
+        <!-- Jquery-->
+        <script src="{% static 'webapp/js/jquery-3.6.1.min.js' %}"></script>
+        <script src="{% static 'webapp/js/index.js' %}" async defer></script>
+    </body>
+</html>
