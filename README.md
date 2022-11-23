@@ -13,11 +13,13 @@ Vibify is a tool for songwriters and song-curious people to enhance their analys
 
 # Table of Content:
 - [Vibify](#vibify)
+- [Who is Vibify For?](#who-is-vibify-for)
 - [Table of Content:](#table-of-content)
   - [Dependencies](#dependencies)
   - [Datasets](#datasets)
   - [App Features](#app-features)
   - [Hosted on ](#hosted-on-)
+- [What's Next for Vibify](#whats-next) 
 
 
 
@@ -43,6 +45,16 @@ Vibify is a tool for songwriters and song-curious people to enhance their analys
 - to add 
 
 
+## What's Next for Vibify?
+
+Improvements and additions we would like to make to Vibify in the future include:
+
+- An expanded dataset containing more songs and a larger set of genres
+- Additional inputs/filters from the user
+  - Example: Input lyrics & genre -> get similar songs from a particular genre only 
+- Audio analysis 
+  -  Ability to extract lyrics 
+  -  Ability to anylize positive/negative sentiment from the sound of the audio 
 
 
 
