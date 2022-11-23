@@ -15,6 +15,7 @@ Vibify is a tool for songwriters and song-curious people to enhance their analys
 - [Vibify](#vibify)
 - [Who is Vibify For?](#who-is-vibify-for)
 - [Table of Content:](#table-of-content)
+  - [Members](#members)
   - [Dependencies](#dependencies)
   - [Datasets](#datasets)
   - [App Features](#app-features)
@@ -22,6 +23,12 @@ Vibify is a tool for songwriters and song-curious people to enhance their analys
 - [What's Next for Vibify](#whats-next) 
 
 
+## Members
+
+Vibify was created during CUNY Tech Prep's winter semester 2022 cohourt. The team consists of:
+- Aleksandra Georgievska (https://github.com/aleksgeorgi)
+- Deepankar
+- Stephen Williams 
 
 ## Dependencies
 
