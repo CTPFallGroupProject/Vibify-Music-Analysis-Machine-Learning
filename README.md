@@ -51,6 +51,13 @@ Vibify was created during CUNY Tech Prep's fall 2022 cohourt. The team consists 
 
 - to add 
 
+## Project Management
+- Timeline and deliverables was established by CUNY Tech Prep staff with a demo night scheduled 8 weeks after group formations
+- Trello was used by group members to manage action items and progress statuses 
+- Github was used by group members for version control 
+- Weekly meetings were held via Zoom by group members
+  - To-discuss agenda items and meeting minutes were tracked on Slack by group members
+
 
 ## What's Next for Vibify?
 
