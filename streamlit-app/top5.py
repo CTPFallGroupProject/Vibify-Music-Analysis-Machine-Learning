@@ -23,7 +23,7 @@ def top5_func(cleaned_X):
     from cleaning_data import clean_data
     import pickle
 
-    df = pd.read_csv('streamlit-app/data/preprocessed_dataset.csv')
+    df = pd.read_csv('https://drive.google.com/file/d/1Txh9TCzWfEc9ermiwQqYAljGyfml1Pxj/view?usp=share_link')
     df.dropna(inplace=True)
 
     model = pickle.load(open('streamlit-app/top5.pkl', 'rb'))
