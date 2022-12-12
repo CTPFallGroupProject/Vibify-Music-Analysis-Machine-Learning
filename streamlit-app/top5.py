@@ -23,7 +23,11 @@ def top5_func(cleaned_X):
     from cleaning_data import clean_data
     import pickle
 
-    df = pd.read_csv('https://drive.google.com/file/d/1Txh9TCzWfEc9ermiwQqYAljGyfml1Pxj/view?usp=share_link')
+    
+    url='https://drive.google.com/file/d/1Txh9TCzWfEc9ermiwQqYAljGyfml1Pxj/view?usp=share_link'
+    url='https://drive.google.com/uc?id=' + url.split('/')[-2]
+    df = pd.read_csv(url)
+
     #df = pd.read_csv('https://drive.google.com/file/d/1Txh9TCzWfEc9ermiwQqYAljGyfml1Pxj/view?usp=share_link')
     df.dropna(inplace=True)
 
