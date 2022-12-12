@@ -3,3 +3,4 @@ streamlit_option_menu
 streamlit-extras
 tensorflow
 nltk
+sklearn
