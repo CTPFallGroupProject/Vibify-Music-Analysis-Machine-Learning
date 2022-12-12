@@ -1,6 +1,7 @@
 def homes():
     import streamlit as st
     import numpy as np
+    import sklearn
     from streamlit_option_menu import option_menu
     from cleaning_data import clean_data
     from vectorizer import vectorize
