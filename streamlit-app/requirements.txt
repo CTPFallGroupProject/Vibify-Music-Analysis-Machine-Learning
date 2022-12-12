@@ -1,0 +1,9 @@
+streamlit
+streamlit_option_menu
+streamlit-extras
+pickle
+tensorflow
+pandas
+numpy
+re
+nltk
