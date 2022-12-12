@@ -4,7 +4,6 @@ def homes():
     from streamlit_option_menu import option_menu
     from cleaning_data import clean_data
     from vectorizer import vectorize
-    import pickle
     from tensorflow import keras
     from streamlit_extras.switch_page_button import switch_page
     from top5 import top5_func
