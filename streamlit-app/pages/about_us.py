@@ -35,7 +35,9 @@ set_prompt_input_color()
 col1, col2, col3 = st.columns([1, 1, 1])
 
 with col1:
-    st.image('https://github.com/CTPFallGroupProject/Music-Analysis-Machine_Learning/blob/main/streamlit-app/images/Aleks.png')
+#     st.image('https://github.com/CTPFallGroupProject/Music-Analysis-Machine_Learning/blob/main/streamlit-app/images/Aleks.png')
+    st.image('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg')
+    
 
     st.markdown(
         "<h5 style='text-align: center; color: black;'>Aleksandra Georgievska</h5>", unsafe_allow_html=True)
