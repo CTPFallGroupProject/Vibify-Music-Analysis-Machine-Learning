@@ -4,7 +4,7 @@ def vectorize(cleaned_X):
     import json
     from keras.preprocessing.text import tokenizer_from_json
 
-    with open('tokenizer.json') as f:
+    with open('streamlit-app/tokenizer.json') as f:
         data = json.load(f)
         loaded_tokenizer = tokenizer_from_json(data)
 

@@ -48,8 +48,8 @@ def homes():
     txt = st.text_area('Please input test:',
                        placeholder="Placeholder", height=140)
 
-    loaded_valence_model = keras.models.load_model('LSTM_Valence_model.h5')
-    loaded_genre_model = keras.models.load_model('LSTM_Genre_model.h5')
+    loaded_valence_model = keras.models.load_model('streamlit-app/LSTM_Valence_model.h5')
+    loaded_genre_model = keras.models.load_model('streamlit-app/LSTM_Genre_model.h5')
 
     # save variables in the current session
     if "prediction_valence" not in st.session_state:

@@ -23,13 +23,13 @@ def top5_func(cleaned_X):
     from cleaning_data import clean_data
     import pickle
 
-    df = pd.read_csv('data/preprocessed_dataset.csv')
+    df = pd.read_csv('streamlit-app/data/preprocessed_dataset.csv')
     df.dropna(inplace=True)
 
-    model = pickle.load(open('top5.pkl', 'rb'))
+    model = pickle.load(open('streamlit-app/top5.pkl', 'rb'))
     query_term_matrix = model.transform([cleaned_X])
     
-    tf_idfs = sparse.load_npz('data/tf_idfs_top5.npz')
+    tf_idfs = sparse.load_npz('streamlit-app/data/tf_idfs_top5.npz')
 
     results = cosine_similarity(tf_idfs, query_term_matrix)
     results = results.reshape((-1,))

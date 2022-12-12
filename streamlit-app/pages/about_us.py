@@ -31,7 +31,7 @@ def about_us():
     col1, col2, col3 = st.columns([1, 1, 1])
 
     with col1:
-        st.image('images/Aleks.png')
+        st.image('streamlit-app/images/Aleks.png')
 
         st.markdown(
             "<h5 style='text-align: center; color: black;'>Aleksandra Georgievska</h5>", unsafe_allow_html=True)
@@ -44,7 +44,7 @@ def about_us():
                  unsafe_allow_html=True)
 
     with col2:
-        st.image('images/Deep.png')
+        st.image('streamlit-app/images/Deep.png')
         st.markdown(
             "<h5 style='text-align: center; color: black;'>Deepankar Ckakraborty</h5>", unsafe_allow_html=True)
         st.write("Deepankar is a Junior at CCNY, studying CS. Has a passion for applying data driven solution to problems. Want to apply Machine Learning knowledge to build something cool.")
@@ -55,7 +55,7 @@ def about_us():
                  unsafe_allow_html=True)
 
     with col3:
-        st.image('images/Stephen.png')
+        st.image('streamlit-app/images/Stephen.png')
         st.markdown(
             "<h5 style='text-align: center; color: black;'>Stephen Williams</h5>", unsafe_allow_html=True)
         st.write("Stephen is a senior at John Jay College studying Applied Math and Computer Science. Enjoys learning the capabilities of AI and hopes to pursue a career in data science")
