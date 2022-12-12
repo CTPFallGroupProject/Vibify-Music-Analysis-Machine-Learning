@@ -47,8 +47,8 @@ def homes():
 
     print(pickle.format_version)
 
-    txt = st.text_area('Please input test:',
-                       placeholder="Placeholder", height=140)
+    txt = st.text_area('Please input text:',
+                       placeholder="...", height=140)
 
     loaded_valence_model = keras.models.load_model('LSTM_Valence_model.h5')
     loaded_genre_model = keras.models.load_model('LSTM_Genre_model.h5')
