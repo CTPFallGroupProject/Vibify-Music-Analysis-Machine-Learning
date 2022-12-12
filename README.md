@@ -34,7 +34,12 @@ Vibify was created during CUNY Tech Prep's fall 2022 cohourt. The team consists 
 
 ## Dependencies
 
-- to add
+- streamlit
+- streamlit_option_menu
+- streamlit-extras
+- tensorflow
+- nltk
+- scikit-learn==0.23.2
 
 
 ## Datasets
@@ -51,7 +56,7 @@ Vibify was created during CUNY Tech Prep's fall 2022 cohourt. The team consists 
 
 ## Hosted on 
 
-- to add 
+- https://streamlit.io/
 
 ## Project Management
 - Timeline and deliverables was established by CUNY Tech Prep staff with a demo night scheduled 8 weeks after group formations
