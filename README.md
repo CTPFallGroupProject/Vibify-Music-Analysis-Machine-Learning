@@ -1,4 +1,4 @@
-(in process... Due Dec 14th, 2022 for CUNY Tech Prep's Demo Night)
+Visit our app: https://ctpfallgroupproject-vibify.streamlit.app/ 
 
 # Vibify - NLP Analysis on Lyrical Data
 
