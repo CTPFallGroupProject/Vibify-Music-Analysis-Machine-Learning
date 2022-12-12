@@ -36,7 +36,7 @@ col1, col2, col3 = st.columns([1, 1, 1])
 
 with col1:
 #     st.image('https://github.com/CTPFallGroupProject/Music-Analysis-Machine_Learning/blob/main/streamlit-app/images/Aleks.png')
-    st.image('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg')
+    st.image('https://github.com/CTPFallGroupProject/Music-Analysis-Machine_Learning/blob/3fb17e82b1cfe865be5d86f12c1f196a99bde30c/streamlit-app/images/Aleks.png')
     
 
     st.markdown(
