@@ -35,9 +35,12 @@ set_prompt_input_color()
 col1, col2, col3 = st.columns([1, 1, 1])
 
 with col1:
-    st.image('https://drive.google.com/file/d/1vu9PCDvJtRWeYmZ3SfDH_QN8oiufLlcd/view?usp=sharing')
+
 #     st.image('https://github.com/CTPFallGroupProject/Music-Analysis-Machine_Learning/blob/3fb17e82b1cfe865be5d86f12c1f196a99bde30c/streamlit-app/images/Aleks.png')
     
+    url='https://drive.google.com/file/d/1vu9PCDvJtRWeYmZ3SfDH_QN8oiufLlcd/view?usp=sharing'
+    url='https://drive.google.com/uc?id=' + url.split('/')[-2]
+    st.image(url)
 
     st.markdown(
         "<h5 style='text-align: center; color: black;'>Aleksandra Georgievska</h5>", unsafe_allow_html=True)
