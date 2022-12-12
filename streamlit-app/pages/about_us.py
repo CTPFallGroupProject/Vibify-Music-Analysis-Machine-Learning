@@ -3,7 +3,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 from streamlit_extras.switch_page_button import switch_page
 st.set_page_config(initial_sidebar_state="collapsed")
-from streamlit.scriptrunner.script_run_context import get_script_run_ctx
+from streamlit.runtime.scriptrunner.script_run_context import get_script_run_ctx
 
 
 
