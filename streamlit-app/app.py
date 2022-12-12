@@ -20,4 +20,4 @@ if selected == "About Us":
     about_us()
 
 
-# to run: streamlit run app.py
+# to run: streamlit run streamlit-app/app.py
