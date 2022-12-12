@@ -52,7 +52,7 @@ with col1:
 
 with col2:
   
-    url2='https://drive.google.com/drive/u/0/folders/1RNZAjqFKtWAphR3aaWqIzEfTEiJiGiAB'
+    url2='https://drive.google.com/file/d/1sShRuqdlErHOVIXxqgtS6JIST4oQZOuB/view?usp=sharing'
     url2='https://drive.google.com/uc?id=' + url2.split('/')[-2]
     st.image(url2)
     
@@ -66,7 +66,7 @@ with col2:
                 unsafe_allow_html=True)
 
 with col3:
-    url3='https://drive.google.com/drive/u/0/folders/1RNZAjqFKtWAphR3aaWqIzEfTEiJiGiAB'
+    url3='https://drive.google.com/file/d/1LAmVoquj-Gks1eJlcFnXQFIN5gh0gR8M/view?usp=sharing'
     url3='https://drive.google.com/uc?id=' + url3.split('/')[-2]
     st.image(url3)
     st.markdown(
