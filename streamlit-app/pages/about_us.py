@@ -36,11 +36,9 @@ col1, col2, col3 = st.columns([1, 1, 1])
 
 with col1:
 
-#     st.image('https://github.com/CTPFallGroupProject/Music-Analysis-Machine_Learning/blob/3fb17e82b1cfe865be5d86f12c1f196a99bde30c/streamlit-app/images/Aleks.png')
-    
-    url='https://drive.google.com/file/d/1vu9PCDvJtRWeYmZ3SfDH_QN8oiufLlcd/view?usp=sharing'
-    url='https://drive.google.com/uc?id=' + url.split('/')[-2]
-    st.image(url)
+    url1='https://drive.google.com/file/d/1vu9PCDvJtRWeYmZ3SfDH_QN8oiufLlcd/view?usp=sharing'
+    url1='https://drive.google.com/uc?id=' + url.split('/')[-2]
+    st.image(url1)
 
     st.markdown(
         "<h5 style='text-align: center; color: black;'>Aleksandra Georgievska</h5>", unsafe_allow_html=True)
@@ -53,7 +51,11 @@ with col1:
                 unsafe_allow_html=True)
 
 with col2:
-    st.image('https://github.com/CTPFallGroupProject/Music-Analysis-Machine_Learning/blob/main/streamlit-app/images/Deep.png')
+  
+    url2='https://drive.google.com/drive/u/0/folders/1RNZAjqFKtWAphR3aaWqIzEfTEiJiGiAB'
+    url2='https://drive.google.com/uc?id=' + url.split('/')[-2]
+    st.image(url2)
+    
     st.markdown(
         "<h5 style='text-align: center; color: black;'>Deepankar Ckakraborty</h5>", unsafe_allow_html=True)
     st.write("Deepankar is a Junior at CCNY, studying CS. Has a passion for applying data driven solution to problems. Want to apply Machine Learning knowledge to build something cool.")
@@ -64,7 +66,9 @@ with col2:
                 unsafe_allow_html=True)
 
 with col3:
-    st.image('https://github.com/CTPFallGroupProject/Music-Analysis-Machine_Learning/blob/main/streamlit-app/images/Stephen.png')
+    url3='https://drive.google.com/drive/u/0/folders/1RNZAjqFKtWAphR3aaWqIzEfTEiJiGiAB'
+    url3='https://drive.google.com/uc?id=' + url.split('/')[-2]
+    st.image(url3)
     st.markdown(
         "<h5 style='text-align: center; color: black;'>Stephen Williams</h5>", unsafe_allow_html=True)
     st.write("Stephen is a senior at John Jay College studying Applied Math and Computer Science. Enjoys learning the capabilities of AI and hopes to pursue a career in data science")
