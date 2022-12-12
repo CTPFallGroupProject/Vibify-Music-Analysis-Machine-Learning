@@ -5,6 +5,7 @@ def clean_data(a_string):
 		import nltk
 		from nltk.stem import WordNetLemmatizer
 		nltk.download('stopwords')
+		nltk.download('punkt')
 		from nltk.corpus import stopwords
 		from nltk import word_tokenize
 		stopwords = stopwords.words('english')
