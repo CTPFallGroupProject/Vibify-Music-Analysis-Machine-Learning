@@ -37,7 +37,7 @@ col1, col2, col3 = st.columns([1, 1, 1])
 with col1:
 
     url1='https://drive.google.com/file/d/1vu9PCDvJtRWeYmZ3SfDH_QN8oiufLlcd/view?usp=sharing'
-    url1='https://drive.google.com/uc?id=' + url.split('/')[-2]
+    url1='https://drive.google.com/uc?id=' + url1.split('/')[-2]
     st.image(url1)
 
     st.markdown(
@@ -53,7 +53,7 @@ with col1:
 with col2:
   
     url2='https://drive.google.com/drive/u/0/folders/1RNZAjqFKtWAphR3aaWqIzEfTEiJiGiAB'
-    url2='https://drive.google.com/uc?id=' + url.split('/')[-2]
+    url2='https://drive.google.com/uc?id=' + url2.split('/')[-2]
     st.image(url2)
     
     st.markdown(
@@ -67,7 +67,7 @@ with col2:
 
 with col3:
     url3='https://drive.google.com/drive/u/0/folders/1RNZAjqFKtWAphR3aaWqIzEfTEiJiGiAB'
-    url3='https://drive.google.com/uc?id=' + url.split('/')[-2]
+    url3='https://drive.google.com/uc?id=' + url3.split('/')[-2]
     st.image(url3)
     st.markdown(
         "<h5 style='text-align: center; color: black;'>Stephen Williams</h5>", unsafe_allow_html=True)
