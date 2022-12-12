@@ -3,4 +3,4 @@ streamlit_option_menu
 streamlit-extras
 tensorflow
 nltk
-sklearn
+scikit-learn==0.23.2
