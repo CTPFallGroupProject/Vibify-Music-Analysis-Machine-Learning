@@ -39,7 +39,7 @@ def set_prompt_input_color():
         f"""
         <style>
         .css-1n76uvr{{
-            color: white !important;
+            color: black !important;
         }}
         </style>
         """,
