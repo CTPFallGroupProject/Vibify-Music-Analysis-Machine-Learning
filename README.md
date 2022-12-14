@@ -10,7 +10,7 @@ Vibify (vibe-if-eye) is a web application that takes in lyrical data as input, p
 - Top-5 Lyrically Similar Songs
 
 ![Imgur](https://i.imgur.com/iAQgbMP.png)
-![Imgur](https://i.imgur.com/9Om6tEY.png)
+![Imgur](https://i.imgur.com/hxFR4UZ.png)
 
 # Who is Vibify For?
 Vibify is a tool for songwriters and song-curious people to enhance their analysis and understanding of lyrics. Some use cases:
