@@ -93,7 +93,7 @@ with col3:
     st.image(url3)
     st.markdown(
         "<h5 style='text-align: center; color: black;'>Stephen Williams</h5>", unsafe_allow_html=True)
-    st.write("Stephen is a senior at John Jay College studying Applied Math and Computer Science. Enjoys learning the capabilities of AI and hopes to pursue a career in data science")
+    st.write("Stephen is a senior at John Jay College studying Applied Math and Computer Science. Loves building NLP models and hopes to pursue a career in data science")
 
     st.write('<a href="https://www.linkedin.com/in/stephen-williams-7843271a3/"> find me on LinkedIn</a>',
              unsafe_allow_html=True)
