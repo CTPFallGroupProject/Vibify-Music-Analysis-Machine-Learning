@@ -22,7 +22,7 @@ Vibify is a tool for songwriters and song-curious people to enhance their analys
 - [Vibify](#vibify)
 - [Who is Vibify For?](#who-is-vibify-for)
 - [Table of Content:](#table-of-content)
-  - [Members](#members)
+  - [Authors](#authors)
   - [Dependencies](#dependencies)
   - [Datasets](#datasets)
   - [App Features](#app-features)
@@ -30,12 +30,13 @@ Vibify is a tool for songwriters and song-curious people to enhance their analys
 - [What's Next for Vibify](#whats-next) 
 
 
-## Members
+## Authors
 
 Vibify was created during CUNY Tech Prep's fall 2022 cohourt. The team consists of:
-- Aleksandra Georgievska (https://github.com/aleksgeorgi)
-- Deepankar
-- Stephen Williams 
+
+- Aleksandra Georgievska [@aleksgeorgi](https://github.com/aleksgeorgi)
+- Deepankar Ckakraborty [@deepankarnk2](https://github.com/deepankarck2)
+- Stephen Williams [@svalentinow](https://github.com/Svalentinow)
 
 ## Dependencies
 
@@ -44,7 +45,7 @@ Vibify was created during CUNY Tech Prep's fall 2022 cohourt. The team consists 
 - streamlit-extras
 - tensorflow
 - nltk
-- scikit-learn==0.23.2
+- scikit-learn
 
 
 ## Datasets
