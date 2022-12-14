@@ -59,7 +59,9 @@ dict = {
 
 }
 
-st.write("Valence Prediction is: ", st.session_state['prediction_valence'])
+st.write("Positive/Negative Sentiment Prediction: ", st.session_state['prediction_valence'])
+st.write("a rating of 0 = very sad, 1 = very happy")
+st.write(" ")
 st.write("Genre Prediction is: ", dict.get(
     str(st.session_state['prediction_genre'])))
 st.write("Top 5 Lyrically Similar Songs Are: \n")
