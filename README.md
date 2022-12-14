@@ -1,7 +1,7 @@
 Visit our app: https://ctpfallgroupproject-vibify.streamlit.app/ 
 
 
-![Imgur](https://imgur.com/iAQgbMP)
+![Imgur](https://i.imgur.com/iAQgbMP.png)
 
 # Vibify - NLP Analysis on Lyrical Data
 
