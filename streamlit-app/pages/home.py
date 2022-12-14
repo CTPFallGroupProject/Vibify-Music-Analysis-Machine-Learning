@@ -20,7 +20,7 @@ def homes():
             f"""
             <style>
             .stApp {{
-                background: url("https://i.pinimg.com/originals/a9/1c/bb/a91cbb2170c5f275f17646f919d9a236.jpg");
+                background: url("https://cdn.pixabay.com/photo/2015/12/27/05/48/turntable-1109588_1280.jpg");
                 background-size: cover
             }}
             </style>
@@ -44,14 +44,19 @@ def homes():
 
     set_bg_hack_url()
     set_prompt_input_color()
+    st.markdown(
+        "<h1 style='text-align: center; color: black; background-color: white; opacity: .95'> Welcome to Vibify </1>", unsafe_allow_html=True)
 
-    print(pickle.format_version)
+    st.markdown(
+        "<h5 style='text-align: center; color: gray; background-color: white; opacity: .95'> Vibify is a Natural Language Processing tool and lyrical search engine helping songwriters, lyricists, and the music-passionate get data on lyrics! </h5>", unsafe_allow_html=True)
 
-    txt = st.text_area('Please input text:',
+    txt = st.text_area('Input Lyrics:',
                        placeholder="...", height=140)
 
-    loaded_valence_model = keras.models.load_model('LSTM_Valence_model.h5')
-    loaded_genre_model = keras.models.load_model('LSTM_Genre_model.h5')
+    loaded_valence_model = keras.models.load_model(
+        'streamlit-app/LSTM_Valence_model.h5')
+    loaded_genre_model = keras.models.load_model(
+        'streamlit-app/LSTM_Genre_model.h5')
 
     # save variables in the current session
     if "prediction_valence" not in st.session_state:
@@ -76,4 +81,4 @@ def homes():
         switch_page("result")
 
     else:
-        st.write('Return:')
+        st.write('')

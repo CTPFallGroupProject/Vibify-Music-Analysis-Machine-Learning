@@ -25,7 +25,7 @@ def set_bg_hack_url():
         f"""
             <style>
             .stApp {{
-                background: url("https://c4.wallpaperflare.com/wallpaper/463/870/465/audio-music-earphones-apple-inc-wallpaper-preview.jpg");
+                background: url("https://cdn.pixabay.com/photo/2016/07/28/17/06/santiago-calatrava-1548506_1280.jpg");
                 background-size: cover
             }}
             </style>
