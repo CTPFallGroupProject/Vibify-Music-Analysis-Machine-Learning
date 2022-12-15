@@ -50,8 +50,9 @@ Vibify was created during CUNY Tech Prep's fall 2022 cohourt. The team consists 
 
 ## Datasets
 - https://www.kaggle.com/datasets/edenbd/150k-lyrics-labeled-with-spotify-valence 
-- https://www.kaggle.com/datasets/saurabhshahane/spotgen-music-dataset 
 - Additional featurs were added by webscraping Genius.com
+- [Our Preprocessed Dataset](https://drive.google.com/file/d/1Txh9TCzWfEc9ermiwQqYAljGyfml1Pxj/view?usp=share_link)
+- [Our Lyrical Dataset + Webscraped Genres](https://drive.google.com/file/d/1w_OoHoDnicfSF3evibndVeDATbBzMI7K/view?usp=share_link)
 
 
 ## App Features
