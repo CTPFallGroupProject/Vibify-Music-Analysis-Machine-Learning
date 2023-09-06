@@ -64,7 +64,12 @@ with col1:
     st.markdown(
         "<h5 style='text-align: center; color: black;'>Aleksandra Georgievska</h5>", unsafe_allow_html=True)
 
-    st.write("Aleksandra is Senior studying CS at Queens College and a Data Science Fellow with CUNY Tech Prep. She is passionate about Data/ML/AI and is building on 10+ years of professional experience in the music industry and financial compliance. Expected grad Dec '23.")
+    st.markdown(
+        """
+        <p style='color: black;'>Aleksandra is Senior studying CS at Queens College and a Data Science Fellow with CUNY Tech Prep. She is passionate about Data/ML/AI and is building on 10+ years of professional experience in the music industry and financial compliance. Expected grad Dec '23.</p>
+        """,
+        unsafe_allow_html=True
+    )
 
     st.write('<a href="https://www.linkedin.com/in/aleksgeorgi/"> find me on LinkedIn</a>',
              unsafe_allow_html=True)
@@ -93,8 +98,12 @@ with col3:
     st.image(url3)
     st.markdown(
         "<h5 style='text-align: center; color: black;'>Stephen Williams</h5>", unsafe_allow_html=True)
-    st.write("Stephen is a senior at John Jay College studying Applied Math and Computer Science. Loves building NLP models and hopes to pursue a career in data science")
-
+    st.markdown(
+        """
+        <p style='color: black;'>Stephen is a senior at John Jay College studying Applied Math and Computer Science. Loves building NLP models and hopes to pursue a career in data science.</p>
+        """,
+        unsafe_allow_html=True
+    )
     st.write('<a href="https://www.linkedin.com/in/stephen-williams-7843271a3/"> find me on LinkedIn</a>',
              unsafe_allow_html=True)
     st.write('<a href="https://github.com/Svalentinow"> find me on Github</a>',
