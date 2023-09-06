@@ -80,7 +80,7 @@ with col2:
     st.markdown(
         "<h5 style='text-align: center; color: black;'>Deepankar Ckakraborty</h5>", unsafe_allow_html=True)
 
-    st.write("Deepankar is a Junior at CCNY, studying CS. Has a passion for applying data driven solution to problems. Want to apply Machine Learning knowledge to build something cool.")
+    st.markdown("<p style='color: black;'>Deepankar is a Junior at CCNY, studying CS. Has a passion for applying data-driven solution to problems. Want to apply Machine Learning knowledge to build something cool.</p>", unsafe_allow_html=True)
 
     st.write('<a href="https://www.linkedin.com/in/deepankar-ckakraborty-327691101/"> find me on LinkedIn</a>',
              unsafe_allow_html=True)
