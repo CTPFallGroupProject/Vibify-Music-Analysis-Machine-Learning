@@ -1,5 +1,7 @@
 # Vibify - AI-Powered Songwriting Companion
 
+Visit our app: https://ctpfallgroupproject-vibify.streamlit.app/
+
 Vibify, short for "Vibe-Identify," is a web application designed to support the songwriting process. Leveraging NLP (Natural Language Processing) and deep learning, this tool analyzes lyrical data, identifies its sentiment, and offers inspiration through lyrically similar songs.
 
 ![Imgur](https://i.imgur.com/iAQgbMP.png)
