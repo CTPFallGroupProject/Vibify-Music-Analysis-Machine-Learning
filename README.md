@@ -44,9 +44,9 @@ Vibify is tailored for songwriters, composers, and anyone intrigued by the art o
 
 ## Future Roadmap
 
-- **Dataset Expansion:** To include a wider range of songs and genres.
-- **Enhanced User Input Options:** Allowing genre-specific song recommendations.
-- **Audio Analysis:** Incorporating audio data for a more holistic sentiment analysis.
+- **Dataset Expansion:** To include a wider range of songs and genres
+- **Enhanced User Input Options:** Allowing genre-specific song recommendations
+- **Audio Analysis:** Incorporating audio data for a more holistic sentiment analysis
 
 ## Explore Vibify
 
