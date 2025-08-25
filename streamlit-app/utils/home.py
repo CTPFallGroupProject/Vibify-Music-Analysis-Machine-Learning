@@ -2,12 +2,37 @@ def homes():
     import streamlit as st
     import numpy as np
     import sklearn
-    from streamlit_option_menu import option_menu
+    import sys
+    import os
     from cleaning_data import clean_data
     from vectorizer import vectorize
-    from tensorflow import keras
-    from streamlit_extras.switch_page_button import switch_page
+    import tensorflow as tf
     from top5 import top5_func
+    
+    # Custom navigation function to replace switch_page
+    def navigate_to(page_name):
+        # Get the current script path
+        current_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        
+        # Construct the path to the target page
+        if page_name == "about_us":
+            target_path = os.path.join(current_dir, "pages", "about_us.py")
+        elif page_name == "result":
+            target_path = os.path.join(current_dir, "pages", "result.py")
+        else:
+            st.error(f"Unknown page: {page_name}")
+            return
+        
+        # Check if the file exists
+        if not os.path.isfile(target_path):
+            st.error(f"Page not found: {target_path}")
+            return
+            
+        # Set a flag in session state to navigate after rerun
+        st.session_state["navigate_to"] = page_name
+        
+        # Clear current page and run the target page
+        st.rerun()
 
     def set_bg_hack_url():
         '''
@@ -53,10 +78,10 @@ def homes():
     txt = st.text_area('Input Lyrics:',
                        placeholder="...", height=140)
 
-    loaded_valence_model = keras.models.load_model(
-        'streamlit-app/LSTM_Valence_model.h5')
-    loaded_genre_model = keras.models.load_model(
-        'streamlit-app/LSTM_Genre_model.h5')
+    loaded_valence_model = tf.keras.models.load_model(
+        'streamlit-app/LSTM_Valence_model.h5', compile=False)
+    loaded_genre_model = tf.keras.models.load_model(
+        'streamlit-app/LSTM_Genre_model.h5', compile=False)
 
     # save variables in the current session
     if "prediction_valence" not in st.session_state:
@@ -78,7 +103,7 @@ def homes():
         st.session_state["prediction_genre"] = prediction_genre
         st.session_state["top5_list"] = top5_list
 
-        switch_page("result")
+        navigate_to("result")
 
     else:
         st.write('')

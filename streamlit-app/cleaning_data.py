@@ -23,7 +23,11 @@ def clean_data(a_string):
 		# 3. function that removes all stopwords.
 		def remove_stopwords(test_string):
 			# Break the sentence down into a list of words
-			words = word_tokenize(test_string)
+			try:
+				words = word_tokenize(test_string)
+			except LookupError:
+				# Fallback tokenization if punkt_tab is not available
+				words = test_string.split()
 			
 			# Make a list to append valid words into
 			valid_words = []
@@ -48,7 +52,11 @@ def clean_data(a_string):
 			lemmatizer = WordNetLemmatizer()
 			
 			# Break the sentence down into a list of words
-			words = word_tokenize(a_string)
+			try:
+				words = word_tokenize(a_string)
+			except LookupError:
+				# Fallback tokenization if punkt_tab is not available
+				words = a_string.split()
 			
 			# Make a list to append valid words into
 			valid_words = []
