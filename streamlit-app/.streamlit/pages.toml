@@ -1,0 +1,10 @@
+[pages]
+# Define the structure of your app's pages
+# Format: "page_path" = {"name": "Display Name", "icon": "icon_name"}
+
+# Hide the home.py page from navigation
+"pages/home.py" = {"visible": false}
+
+# Rename other pages
+"pages/about_us.py" = {"name": "About Us", "icon": "people"}
+"pages/result.py" = {"name": "Results", "icon": "music-note"}
